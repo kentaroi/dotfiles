@@ -148,3 +148,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# Set a wallpaper
+exec --no-startup-id feh --bg-fill ~/wallpapers/black_and_white_debian_1920x1080_61523.jpg
