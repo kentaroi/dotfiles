@@ -4,10 +4,6 @@ esac
 
 source ~/.zsh/prompt
 
-for function in ~/.zsh/functions/*; do
-  source $function
-done
-
 alias ls='ls --color=auto'
 
 ## I can spell
@@ -28,6 +24,11 @@ HISTFILE=~/.zsh_history
 # Use modern completion system
 autoload -Uz compinit
 compinit
+
+for function in ~/.zsh/functions/*; do
+  source $function
+done
+
 
 zstyle ':completion:*' menu select=2
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS} ma=0\;32
