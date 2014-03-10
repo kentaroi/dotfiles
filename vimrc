@@ -29,7 +29,7 @@ set smartcase                   " ... unless they containa at least one capital 
 let g:jellybeans_background_color_256=0
 colorscheme jellybeans
 
-let mapleader = '.'
+let mapleader = ','
 inoremap jj <ESC>
 nnoremap j gj
 nnoremap k gk
