@@ -4,6 +4,10 @@ esac
 
 source ~/.zsh/prompt
 
+for function in ~/.zsh/functions/*; do
+  source $function
+done
+
 alias ls='ls --color=auto'
 
 ## I can spell
