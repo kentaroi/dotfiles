@@ -57,7 +57,7 @@ FontName=Monospace 9
 # SMYCK
 # Calculated from Smyck.itermcolors
 # at https://github.com/hukl/Smyck-Color-Scheme/blob/master/Smyck.itermcolors
-# ColorPalette1=#000000000000
+ColorPalette1=#000000000000
 ColorPalette2=#b85b4194317f
 ColorPalette3=#7dd6a9eb0000
 ColorPalette4=#c4c4a5a40000
@@ -74,3 +74,6 @@ ColorPalette14=#f7f79a99ffff
 ColorPalette15=#6a69d9d9cfcf
 ColorPalette16=#f7f7f7f7f7f7
 
+# ColorBackground=#1b2a1b2a1b2a
+# ColorForeground=#f7f7f7f7f7f7
+ColorCursor=black-on-white
