@@ -57,22 +57,22 @@ FontName=Monospace 9
 # SMYCK
 # Calculated from Smyck.itermcolors
 # at https://github.com/hukl/Smyck-Color-Scheme/blob/master/Smyck.itermcolors
-ColorPalette1=#000000000000
-ColorPalette2=#b85b4194317f
-ColorPalette3=#7dd6a9eb0000
-ColorPalette4=#c4c4a5a40000
-ColorPalette5=#6262a3a3c4c4
-ColorPalette6=#bab98a8acccc
-ColorPalette7=#202073738383
-ColorPalette8=#a135a13da133
-ColorPalette9=#7ae07ae07ae0
-ColorPalette10=#d6d683837c7b
-ColorPalette11=#c4c4f1f03736
-ColorPalette12=#fefee1e14d4d
-ColorPalette13=#8d8dcfcff0f0
-ColorPalette14=#f7f79a99ffff
-ColorPalette15=#6a69d9d9cfcf
-ColorPalette16=#f7f7f7f7f7f7
+# ColorPalette1=#000000000000
+# ColorPalette2=#b85b4194317f
+# ColorPalette3=#7dd6a9eb0000
+# ColorPalette4=#c4c4a5a40000
+# ColorPalette5=#6262a3a3c4c4
+# ColorPalette6=#bab98a8acccc
+# ColorPalette7=#202073738383
+# ColorPalette8=#a135a13da133
+# ColorPalette9=#7ae07ae07ae0
+# ColorPalette10=#d6d683837c7b
+# ColorPalette11=#c4c4f1f03736
+# ColorPalette12=#fefee1e14d4d
+# ColorPalette13=#8d8dcfcff0f0
+# ColorPalette14=#f7f79a99ffff
+# ColorPalette15=#6a69d9d9cfcf
+# ColorPalette16=#f7f7f7f7f7f7
 
 # ColorBackground=#1b2a1b2a1b2a
 # ColorForeground=#f7f7f7f7f7f7

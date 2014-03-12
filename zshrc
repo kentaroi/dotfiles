@@ -29,6 +29,8 @@ for function in ~/.zsh/functions/*; do
   source $function
 done
 
+# set LS_COLORS as bash default
+eval `dircolors -b`
 
 zstyle ':completion:*' menu select=2
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS} ma=0\;32
