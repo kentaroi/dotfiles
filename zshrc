@@ -59,7 +59,7 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS} ma=0\;32
 # zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 # zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-
+source ~/.oauth_keys_and_secrets_for_development
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
