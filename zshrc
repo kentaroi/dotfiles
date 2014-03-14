@@ -93,5 +93,5 @@ source ~/.oauth_keys_and_secrets_for_development
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-export PATH="./bin:$PATH"
+eval "$(direnv hook zsh)"
 
