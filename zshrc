@@ -11,8 +11,6 @@ unsetopt correct
 unsetopt correct_all
 
 
-setopt histignorealldups sharehistory
-
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
 
@@ -22,10 +20,41 @@ autoload -U edit-command-line
 zle -N edit-command-line
 bindkey '\C-x\C-e' edit-command-line
 
+
+# History
+setopt inc_append_history
+
+# When you use both local and shared history, hist_ignore_all_dups should not be set.
+# Because it can break other terminal's local history.
+setopt share_history
+
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=4096
+SAVEHIST=4096
 HISTFILE=~/.zsh_history
+
+# Local zsh history (Ctrl+p, Ctrl+n)
+bindkey "^P" up-line-or-local-history
+bindkey "^N" down-line-or-local-history
+
+# Global zsh history (Alt+p, Alt+n)
+bindkey "^[p" up-line-or-history
+bindkey "^[n" down-line-or-history
+
+up-line-or-local-history() {
+  zle set-local-history 1
+  zle up-line-or-history
+  zle set-local-history 0
+}
+zle -N up-line-or-local-history
+
+down-line-or-local-history() {
+  zle set-local-history 1
+  zle down-line-or-history
+  zle set-local-history 0
+}
+zle -N down-line-or-local-history
+
 
 # Use modern completion system
 autoload -Uz compinit
