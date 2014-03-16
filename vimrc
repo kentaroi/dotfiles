@@ -95,3 +95,7 @@ let g:rails_projections = {
   \ }
   \}
 
+" vim-easy-align
+vmap <Leader>a  <Plug>(EasyAlign)
+nmap <Leader>a  <Plug>(EasyAlign)
+
