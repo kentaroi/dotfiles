@@ -11,6 +11,10 @@ unsetopt correct
 unsetopt correct_all
 
 
+# :)
+export EDITOR=vim
+
+
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
 
