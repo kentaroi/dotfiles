@@ -67,3 +67,9 @@
 [submodule "vim/bundle/vim-easy-align"]
 	path = vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
+[submodule "vim/bundle/vim-textobj-between"]
+	path = vim/bundle/vim-textobj-between
+	url = https://github.com/thinca/vim-textobj-between.git
+[submodule "vim/bundle/vim-textobj-underscore"]
+	path = vim/bundle/vim-textobj-underscore
+	url = https://github.com/lucapette/vim-textobj-underscore.git
