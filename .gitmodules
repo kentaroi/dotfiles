@@ -70,6 +70,6 @@
 [submodule "vim/bundle/vim-textobj-between"]
 	path = vim/bundle/vim-textobj-between
 	url = https://github.com/thinca/vim-textobj-between.git
-[submodule "vim/bundle/vim-textobj-underscore"]
-	path = vim/bundle/vim-textobj-underscore
-	url = https://github.com/lucapette/vim-textobj-underscore.git
+[submodule "vim/bundle/vim-textobj-variable-segment"]
+	path = vim/bundle/vim-textobj-variable-segment
+	url = https://github.com/Julian/vim-textobj-variable-segment.git
