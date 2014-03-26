@@ -5,6 +5,9 @@ esac
 source ~/.zsh/prompt
 
 alias ls='ls --color=auto'
+alias be='bundle exec'
+alias bu='bundle update'
+alias bi='bundle install'
 
 ## I can spell
 unsetopt correct
