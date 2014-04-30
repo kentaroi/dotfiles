@@ -8,6 +8,7 @@ alias ls='ls --color=auto'
 alias be='bundle exec'
 alias bu='bundle update'
 alias bi='bundle install'
+alias re='rbenv exec'
 
 ## I can spell
 unsetopt correct
