@@ -9,6 +9,7 @@ alias be='bundle exec'
 alias bu='bundle update'
 alias bi='bundle install'
 alias re='rbenv exec'
+alias cd..='cd ..'
 
 ## I can spell
 unsetopt correct
