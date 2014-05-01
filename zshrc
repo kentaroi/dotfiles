@@ -6,8 +6,9 @@ source ~/.zsh/prompt
 
 alias ls='ls --color=auto'
 alias be='bundle exec'
-alias bu='bundle update'
 alias bi='bundle install'
+alias bo='bundle open'
+alias bu='bundle update'
 alias re='rbenv exec'
 alias cd..='cd ..'
 
