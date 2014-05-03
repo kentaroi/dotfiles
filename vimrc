@@ -14,6 +14,13 @@ set laststatus=2
 set t_Co=256
 
 
+"" Tmux
+autocmd VimEnter * nested if @% == '' | call system("tmux rename-window '[" . fnamemodify(getcwd(), ':t') . "]'") |
+                        \ else | call system("tmux rename-window '[" . expand("%:t") . "]'") |
+                        \ endif
+autocmd VimLeave * call system("tmux set automatic-rename on")
+
+
 "" Filetypes
 autocmd BufNewFile,BufRead *.cap set filetype=ruby
 autocmd BufNewFile,BufRead *.coffee.erb set filetype=coffee.eruby
