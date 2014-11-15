@@ -1,9 +1,45 @@
 scriptencoding utf-8
 
 set nocompatible
-set exrc
 
-execute pathogen#infect()
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'Vundle.vim'
+
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'wgibbs/vim-irblack'
+
+Plugin 'evanmiller/nginx-vim-syntax'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'jimenezrick/vimerl'
+
+Plugin 'kana/vim-textobj-user'
+Plugin 'kana/vim-textobj-entire'
+Plugin 'Julian/vim-textobj-variable-segment'
+Plugin 'deris/vim-textobj-enclosedsyntax'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+
+Plugin 'wincent/Command-T'
+Plugin 'rking/ag.vim'
+Plugin 'vim-scripts/taglist.vim'
+
+Plugin 'houtsnip/vim-emacscommandline'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'tpope/vim-surround'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'wellle/tmux-complete.vim'
+Plugin 'msanders/snipmate.vim'
+
+Plugin 'kannokanno/vimtest'
+call vundle#end()
+
 filetype plugin indent on
 
 syntax on
