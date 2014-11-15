@@ -101,7 +101,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 # zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 # zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-source ~/.oauth_keys_and_secrets_for_development
+source ~/.keys_and_secrets_for_development
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
