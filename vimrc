@@ -23,8 +23,9 @@ autocmd VimLeave * call system("tmux set automatic-rename on")
 
 "" Filetypes
 autocmd BufNewFile,BufRead *.cap set filetype=ruby
+autocmd BufNewFile,BufRead *.scss set filetype=scss
 autocmd BufNewFile,BufRead *.coffee.erb set filetype=coffee.eruby
-autocmd BufNewFile,BufRead *.scss.erb set filetype=css.scss.eruby
+autocmd BufNewFile,BufRead *.scss.erb set filetype=scss.eruby
 autocmd BufNewFile,BufRead nginx.conf set filetype=nginx
 autocmd BufNewFile,BufRead Makefile.* set filetype=make
 autocmd BufNewFile,BufRead *.app set filetype=erlang
