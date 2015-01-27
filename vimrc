@@ -121,6 +121,7 @@ nnoremap Y y$
 "" Plugin configurations
 " Command-T
 nnoremap <silent> <Leader>f :CommandTFlush<CR>
+let g:CommandTTraverseSCM = 'pwd'
 set wildignore+=vendor/bundle/**
 set wildignore+=test/**/vendor/bundle**
 set wildignore+=tmp/**
