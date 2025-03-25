@@ -1,0 +1,10 @@
+[user]
+	name = Kentaro Imai
+	email = kentaroi@gmail.com
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[diff]
+	algorithm = histogram
+[init]
+	defaultBranch = main
