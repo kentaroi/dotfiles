@@ -1,0 +1,6 @@
+[[language]]
+name = "swift"
+scope = "source.swift"
+file-types = ["swift"]
+roots = ["Package.swift", ".git"]
+language-servers = ["sourcekit-lsp"]
